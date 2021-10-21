@@ -10,7 +10,65 @@
 </head>
 <body>
 
-    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a href="" class="navbar-brand">
+                <img width="124px" src="assets/Discord-Logo+Wordmark-White.svg" alt="">
+            </a>
+            <div>
+                <button class="btn btn-sm btn-light d-none d-sm-inline d-lg-none">Open Discord</button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="offcanvas offcanvas-end" tabindex="1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <img width="124px" src="assets/Discord-Logo+Wordmark-Black.svg" alt="">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Download</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Nitro</a>
+                        </li>
+                        <li class="nav-item dropdown  d-lg-none">
+                            <a href="#" class="nav-link dropdown-toggle" id="safetyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Safety Center
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="safetyDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">Super safe account</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Safe server</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Administrators and Moderators</a>
+                                </li>
+                              </ul>
+                        </li>
+                        <li class="nav-item d-none d-lg-inline">
+                            <a href="#" class="nav-link">
+                                Safety Center
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <script src="bootstrap.bundle.min.js"></script>
 </body>
