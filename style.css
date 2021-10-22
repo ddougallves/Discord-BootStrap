@@ -1,9 +1,7 @@
-
 div.offcanvas a.nav-link {
     color: #333!important;
     font-weight: 500;
 }
-
 
 .dropdown-item{
     color: #333!important;
@@ -64,7 +62,7 @@ section:first-child{
     min-height: 60vh;
     background-image: url('assets/e6d57714479874c665b36c7adee76b1d.svg');
     background-position: center;
-    background-size: auto 40vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
