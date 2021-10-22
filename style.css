@@ -1,7 +1,9 @@
 
 div.offcanvas a.nav-link {
     color: #333!important;
+    font-weight: 500;
 }
+
 
 .dropdown-item{
     color: #333!important;
@@ -20,9 +22,19 @@ div.offcanvas a.nav-link {
     box-shadow: none;
 }
 
+.btn{
+    box-shadow: none!important;
+}
+
+.form-select,select,select:active,select:focus{
+    border: none!important;
+    box-shadow: none!important;
+}
+
 .btn-close {
     background: url('assets/times.svg');
     background-repeat: no-repeat;
+    background-size: 25px;
 }
 
 .btn-close:hover {
@@ -50,14 +62,35 @@ section:last-child h4{
 
 section:first-child{
     min-height: 60vh;
+    background-image: url('assets/e6d57714479874c665b36c7adee76b1d.svg');
+    background-position: center;
+    background-size: auto 40vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 section:first-child h1{
     font-weight: 600;
 }
 
-section:first-child p{
-    max-width: 992px;
+p{
+    max-width: 768px;
+}
+
+.lead{
+    font-weight: 400;
+}
+
+.purple{
+    background-color: #5865F2;
+    border: 1px solid #5865F2;
+    color: white;
+}
+
+.purple:hover{
+    color: white;
+    background-color: #5865F2;
+    border: 1px solid #5865F2;
 }
 
 footer a{
@@ -68,3 +101,4 @@ footer a:hover{
     color: #f8f9fa!important;
     text-decoration: underline;
 }
+
